@@ -1,0 +1,19 @@
+Package: mcmcdbStan
+Title: mcmcdb (rstan)
+Version: 0.0.1
+Authors@R: c(person("Jeffrey", "Arnold", role = c("aut", "cre"),
+    email = "jeffrey.arnold@gmail.com"))
+Description: Convert rstan output to mcmcdb databases.
+Depends:
+    R (>= 3.0.0),
+    methods
+License: GPL-3
+Suggests:
+    devtools
+Imports:
+    mcmcdb,
+    plyr,
+    rstan (>= 1.2.0)
+Collate:
+    'mcmcdbStan-package.R'
+    'mcmcdbWide-method.R'

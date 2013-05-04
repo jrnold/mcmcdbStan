@@ -1,0 +1,3 @@
+import(mcmcdb)
+import(plyr)
+importClassesFrom(rstan,stanfit)
